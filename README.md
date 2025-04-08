@@ -1,10 +1,10 @@
 # Wails + Astro + Tailwind CSS + Shadcn/ui Template
 
-![Wails Astro Tailwinc ShadcnUI](photo.png)
+![Wails Astro Tailwinc ShadcnUI](frontend/src/assets/thumb.png)
 
 ## Overview
 
-This template provides a starting point for Wails, preconfigured with Astro, Tailwind CSS, and Shadcn/ui. It offers support for Bun as well as **optional support** for NPM, due to compatibility issues that arise when using npm with React 19 and above for some dependencies.
+This template provides a starting point for Wails, preconfigured with Astro, Tailwind CSS, and Shadcn/ui. It offers support for Bun as well as **optional support** for NPM, due to compatibility issues that arise when using npm with React 19 and above.
 
 ## Versions
 
@@ -53,22 +53,26 @@ To get started, follow these steps:
 
     Depending on your package manager, run one of the following:
 
-    - For **npm**:
-
-        ```bash
-        npm install
-        ```
-
     - For **Bun**:
 
         ```bash
         bun install
         ```
 
+    - For **npm**:
+
+        ```bash
+        npm install
+        ```
+
 ## Installing Components
 
-To install UI components from Shadcn, use the following command:
-
+To install UI components from Shadcn, one of the following command:
+- For **Bun**:
+```bash
+bunx --bun shadcn-ui@latest add [component]
+```
+- For **npm**:
 ```bash
 npx shadcn-ui@latest add [component]
 ```
@@ -87,16 +91,15 @@ To start live development mode:
 
 2. In a separate terminal, navigate to the `frontend` directory and run either of the following:
 
-    - For **npm**:
-
-        ```bash
-        npm run dev
-        ```
-
     - For **Bun**:
 
         ```bash
         bun run dev
+        ```
+    - For **npm**:
+
+        ```bash
+        npm run dev
         ```
 
 This will start the frontend development server at `http://localhost:34115`. Open this in your browser to interact with your application.
@@ -115,3 +118,5 @@ wails build
 - **TailwindCSS**: [https://tailwindcss.com/](https://tailwindcss.com/)
 - **Shadcn/ui**: [https://ui.shadcn.com/](https://ui.shadcn.com/)
 - **Wails**: [https://wails.io/](https://wails.io/)
+- **Bun**: [https://bun.sh/](https://bun.sh/)
+- **npm**: [https://www.npmjs.com/](https://www.npmjs.com/)
