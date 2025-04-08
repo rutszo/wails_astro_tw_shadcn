@@ -1,0 +1,7 @@
+{
+  "name": "Wails template for Astro + Tailwind + Shadcn",
+  "shortname": "wails_astro_tw_shadcn",
+  "author": "rutszo",
+  "description": "Wails template for Astro + Tailwind + Shadcn (Uses bun to circumvent npm issues in react 19)",
+  "helpurl": "https://github.com/rutszo/wails_astro_tw_shadcn"
+}
