@@ -72,13 +72,13 @@ To install UI components from Shadcn, run one of the following commands:
 - For **Bun**:
 
     ```bash
-    bunx --bun shadcn-ui@latest add [component]
+    bunx --bun shadcn@latest add [component]
     ```
 
 - For **npm**:
 
     ```bash
-    npx shadcn-ui@latest add [component]
+    npx shadcn@latest add [component]
     ```
 
 For a full list of available components, visit the [Shadcn/ui documentation](https://ui.shadcn.com/docs/components/).
